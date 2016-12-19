@@ -184,7 +184,7 @@ h3 span {
     padding: 10px;
 }
 #buttonWrapper {
-	position: relative ; 
+	position: absolute ; 
 	top: 40px; 
 	width: 100%;
 }
