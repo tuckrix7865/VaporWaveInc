@@ -152,12 +152,14 @@ body {
     display: block;
     margin: 0 auto;
     z-index: -1;
-
+#centerit {
+	margin: auto; 
+	}
 
 }
 
 #title {
-	margin-top :15%;
+	margin-top : 0; 
 	width: 100%;
 	text-align:center;
  
