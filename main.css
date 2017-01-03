@@ -141,6 +141,7 @@ html {
 }
 body {
    background:-webkit-linear-gradient(#00ffff, #ff6699); 	
+   height:100%; 
    
 }
 
@@ -150,22 +151,24 @@ body {
 
 #img {
     display: block;
-    margin: 0 auto;
+    margin: auto;
     z-index: -1;
 
 
 }
 
 #title {
-	margin-top :25%;
-	width: 100%;
-	text-align:center;
- 
+	width: 100%; 
+    left: 0; 
+	position: relative; 
+	transform: translateY(-100%);
+	top: 50%;
+	text-align: center;
 
 }
 
-#mainTitle, #subTitle {
-	width: 100%;
+#mainTitle, #subTitle { 
+	text-align: center; 
     color: black ;
 	font-size: 100px;
 	line-height: 25px; 
@@ -181,16 +184,18 @@ h3 span {
     font: bold 22px/45px  'roboto';
     padding: 10px;
 }
-#buttonWrapper {
-	position: relative ; 
-	top: 40px; 
-	width: 100%;
-}
+
 a:link, a:active, a:visited, a:hover  {
     text-decoration: none;
 }
 
 .button {
+	text-align:center; 
+	position: absolute; 
+	transform: translateY(-100%);
+	top: 50%;
+	transform: translateX(-50%); 
+	left: 50%; 
     background-color: #4CAF50; /* Green */
     border: none;
     color: black;
